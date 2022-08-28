@@ -1,6 +1,6 @@
-version: "3.9"
+version: "3.6"
 services:
-  web:
-    image: "rschop/odcn:flask-docker"
-    ports:
-      - "8080:5000"
+    flask:
+        image: "rschop/odcn:flaskapp"
+        ports:
+        - "5000:80"

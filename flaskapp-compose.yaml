@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+    flask:
+        image: rschop/odcn:flaskapp
+        container_name: flaksapp
+        ports:
+        - 5001:80
